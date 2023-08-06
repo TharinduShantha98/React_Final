@@ -1,0 +1,189 @@
+/* General CSS For Whole Table*/
+table,
+th,
+td {
+    border: 1px solid rgba(128, 128, 128, 0.315);
+    border-collapse: collapse;
+    width: 888px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    height: 70px;
+}
+
+table {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+thead {
+    background-color: rgb(196, 195, 195);
+    height: 35px;
+    border: none;
+}
+
+img {
+    width: 100px;
+    object-fit: fill;
+}
+
+.table-container {
+    width: 80%;
+    margin-left: 16%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+/* Pagination Part */
+
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 3px 3px 3px 3px;
+    margin-top: 15px;
+}
+
+.pagination-container>button {
+    width: 20px;
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(196, 195, 195);
+}
+
+.pagination-container>button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Table Nav Part */
+
+.table-nav {
+    width: 870px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search {
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px 5px 10px 20px;
+    text-indent: 20px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.144) 0px 7px 29px 0px;
+
+}
+
+.search-div-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-nav-buttons-container {
+    height: max-content;
+    width: max-content;
+}
+
+.table-nav-buttons-container>button {
+    margin-right: 9px;
+    color: black;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.table-nav-buttons-container>button:first-child {
+    background-color: rgba(47, 151, 47, 0.425);
+}
+
+.table-nav-buttons-container>button:nth-child(2) {
+    background-color: rgba(245, 50, 50, 0.438);
+}
+
+.table-nav-buttons-container>button:nth-child(3) {
+    background-color: rgba(119, 120, 121, 0.281);
+}
+
+.table-nav-buttons-container>button:first-child:hover {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+}
+
+.table-nav-buttons-container>button:nth-child(2):hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+}
+
+.table-nav-buttons-container>button:nth-child(3):hover {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+/* Some Details */
+
+.gender-warper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.male-blue,
+.female-pink {
+    background-color: rgba(98, 154, 228, 0.411);
+    width: max-content;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.female-pink {
+    background-color: pink;
+}
+
+.delete-icon {
+    color: red;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.fa-check {
+    font-size: 22px;
+    color: rgb(5, 117, 5);
+    cursor: pointer;
+}
+
+.fa-pen-to-square {
+    cursor: pointer;
+}
+
+.Bill-Table
+{
+    width: 100%;
+    
+}

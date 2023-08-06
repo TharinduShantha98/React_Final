@@ -1,0 +1,105 @@
+:root {
+    --primary: #fff;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #000000;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+    width: 113px;
+}
+
+.cancel {
+    background-color: rgb(228, 35, 35);
+    border: none;
+}
+
+.add {
+    border: none;
+
+}
+
+.but--small {
+    padding: 4px 16px;
+    font-size: 12px;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+
+}
+
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover,
+.btn--small:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+    border: 1px solid black;
+}
+
+.cancel:hover,
+.btn--cancel:hover {
+    transition: all 0.3s ease-out;
+    background: rgb(255, 255, 255);
+    color: #ff0000;
+    transition: 250ms;
+    border: 1px solid red;
+}
+
+.btn--form {
+    background-color: rgb(252, 227, 0);
+    margin-top: 20px;
+    width: 150px;
+
+}
+
+.btn--form:hover {
+    transition: all 0.3s ease-out;
+    background: transparent;
+    color: #fffb00;
+    transition: 250ms;
+    border: 1px solid rgb(253, 249, 1);
+}
+
+.btn--cancel {
+    width: 40%;
+    background-color: rgba(255, 0, 0, 0.644);
+    border: red;
+}
+
+.btn--purchase {
+    width: 40%;
+    background-color: rgba(66, 163, 66, 0.856);
+    border: green;
+    
+}
+
+.btn--purchase:hover {
+    color: green;
+    border: 1px solid green;
+}
